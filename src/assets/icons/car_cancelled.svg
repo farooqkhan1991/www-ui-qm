@@ -1,0 +1,8 @@
+<svg id="Component_112_1" data-name="Component 112 – 1" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <path id="ic_directions_car_24px" d="M19,6.01A1.5,1.5,0,0,0,17.571,5H6.517A1.511,1.511,0,0,0,5.09,6.01L3,12v8a1,1,0,0,0,1,1h1a1,1,0,0,0,1-1V19H18.073v1a1,1,0,0,0,1,1h1a1,1,0,0,0,1-1V12ZM6.517,16a1.5,1.5,0,1,1,1.507-1.5A1.5,1.5,0,0,1,6.517,16Zm11.054,0a1.5,1.5,0,1,1,1.507-1.5A1.5,1.5,0,0,1,17.571,16ZM5.01,11,6.517,6.5H17.571L19.078,11Z" transform="translate(0.912 -1.122)" fill="#707070"/>
+  <g id="Ellipse_392" data-name="Ellipse 392" fill="none" stroke="#707070" stroke-width="2">
+    <circle cx="13" cy="13" r="13" stroke="none"/>
+    <circle cx="13" cy="13" r="12" fill="none"/>
+  </g>
+  <line id="Line_192" data-name="Line 192" x1="17.088" y2="16.203" transform="translate(3.412 4.297)" fill="none" stroke="#707070" stroke-width="2"/>
+</svg>

@@ -1,0 +1,369 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "userDetails": {
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "middleInitial": "G",
+    "gender": "male",
+    "dateOfBirth": "01/01/2000",
+    "age": 20,
+    "primaryLanguage": "English",
+    "personId": 12
+  },
+  "userContacts": {
+    "phoneNumbers": [
+      {
+        "type": "Home",
+        "value": "(913) 123-3211",
+        "contactId": 1
+      },
+      {
+        "type": "Work",
+        "value": "(913) 321-4325",
+        "contactId": 2
+      }
+    ],
+    "emailAddresses": [
+      {
+        "type": "Home",
+        "value": "test@gmail.com",
+        "contactId": 3
+      },
+      {
+        "type": "Work",
+        "value": "work@gmail.com",
+        "contactId": 4
+      }
+    ]
+  },
+  "userAddresses": [
+    {
+      "type": "Mailing Address",
+      "Address1": "8241 W. 152nd St.",
+      "Address2": "#123",
+      "City": "Overland Park",
+      "State": "Kansas",
+      "Zip": "66223",
+      "addressId": 1
+    },
+    {
+      "type": "Home Address",
+      "Address1": "4321 W. 152nd St.",
+      "Address2": "#123",
+      "City": "Overland Park",
+      "State": "Kansas",
+      "Zip": "66223",
+      "addressId": 2
+    }
+  ],
+  "trips": [
+    {
+      "appointmentDate": "2020-03-17T00:00:00Z",
+      "appointmentTime": null,
+      "requestedPickTime": "2020-03-17T23:00:00Z",
+      "isWillCall": 1,
+      "tripStatus": "Cancelled",
+      "isCancelled": true,
+      "pickCommonName": "",
+      "pickAddress1": "2526 Court St",
+      "pickAddress2": "",
+      "pickCity": "Beatrice",
+      "pickState": "NE",
+      "pickZip": null,
+      "dropCommonName": "",
+      "dropAddress1": "622 Bell St",
+      "dropAddress2": "",
+      "dropCity": "Beatrice",
+      "dropState": "NE",
+      "dropZip": null,
+      "providerId": 5,
+      "providerName": "Yellow Cab of Beatrice, Inc",
+      "providerPhone": "4028061870",
+      "groupId": 70921,
+      "providerTripId": "Q00BQ8UK60A",
+      "mfTripId": 364720,
+      "reservationId": 52240
+    },
+    {
+      "appointmentDate": "2020-03-17T00:00:00Z",
+      "appointmentTime": "2020-03-17T24:00:00Z",
+      "requestedPickTime": null,
+      "isWillCall": 1,
+      "tripStatus": "Cancelled",
+      "isCancelled": true,
+      "pickCommonName": "",
+      "pickAddress1": "622 Bell St",
+      "pickAddress2": "",
+      "pickCity": "Beatrice",
+      "pickState": "NE",
+      "pickZip": null,
+      "dropCommonName": "",
+      "dropAddress1": "2526 Court St",
+      "dropAddress2": "",
+      "dropCity": "Beatrice",
+      "dropState": "NE",
+      "dropZip": null,
+      "providerId": 5,
+      "providerName": "Yellow Cab of Beatrice, Inc",
+      "providerPhone": "4028061870",
+      "groupId": 70921,
+      "providerTripId": "Q00BQ8UK60B",
+      "mfTripId": 364721,
+      "reservationId": 52241
+    },
+    {
+      "appointmentDate": "2020-03-17T00:00:00Z",
+      "appointmentTime": null,
+      "requestedPickTime": "2020-03-17T23:00:00Z",
+      "isWillCall": 1,
+      "tripStatus": "VALID",
+      "isCancelled": false,
+      "pickCommonName": "",
+      "pickAddress1": "2526 Court St",
+      "pickAddress2": "",
+      "pickCity": "Beatrice",
+      "pickState": "NE",
+      "pickZip": null,
+      "dropCommonName": "",
+      "dropAddress1": "622 Bell St",
+      "dropAddress2": "",
+      "dropCity": "Beatrice",
+      "dropState": "NE",
+      "dropZip": null,
+      "providerId": 5,
+      "providerName": "Yellow Cab of Beatrice, Inc",
+      "providerPhone": "4028061870",
+      "groupId": 70922,
+      "providerTripId": "Q00BQ8UK20A",
+      "mfTripId": 364724,
+      "reservationId": 52243
+    },
+    {
+      "appointmentDate": "2020-03-17T00:00:00Z",
+      "appointmentTime": "2020-03-17T24:00:00Z",
+      "requestedPickTime": null,
+      "isWillCall": 1,
+      "tripStatus": "Cancel",
+      "isCancelled": true,
+      "pickCommonName": "",
+      "pickAddress1": "622 Bell St",
+      "pickAddress2": "",
+      "pickCity": "Beatrice",
+      "pickState": "NE",
+      "pickZip": null,
+      "dropCommonName": "",
+      "dropAddress1": "2526 Court St",
+      "dropAddress2": "",
+      "dropCity": "Beatrice",
+      "dropState": "NE",
+      "dropZip": null,
+      "providerId": 5,
+      "providerName": "Yellow Cab2 of Beatrice, Inc",
+      "providerPhone": "4028061870",
+      "groupId": 70922,
+      "providerTripId": "Q00BQ8UK20B",
+      "mfTripId": 364725,
+      "reservationId": 52244
+    },
+    {
+      "appointmentDate": "2020-03-17T00:00:00Z",
+      "appointmentTime": "2020-03-17T24:00:00Z",
+      "requestedPickTime": null,
+      "isWillCall": 1,
+      "tripStatus": "VALID",
+      "isCancelled": false,
+      "pickCommonName": "",
+      "pickAddress1": "622 Bell St",
+      "pickAddress2": "",
+      "pickCity": "Beatrice",
+      "pickState": "NE",
+      "pickZip": null,
+      "dropCommonName": "",
+      "dropAddress1": "2526 Court St",
+      "dropAddress2": "",
+      "dropCity": "Beatrice",
+      "dropState": "NE",
+      "dropZip": null,
+      "providerId": 5,
+      "providerName": "Yellow Cab of Beatrice, Inc",
+      "providerPhone": "4028061870",
+      "groupId": 70922,
+      "providerTripId": "Q00BQ8UK20C",
+      "mfTripId": 364727,
+      "reservationId": 52245
+    },
+    {
+      "appointmentDate": "2020-03-17T00:00:00Z",
+      "appointmentTime": "2020-03-17T24:00:00Z",
+      "requestedPickTime": null,
+      "isWillCall": 1,
+      "tripStatus": "VALID",
+      "isCancelled": false,
+      "pickCommonName": "",
+      "pickAddress1": "622 Bell St",
+      "pickAddress2": "",
+      "pickCity": "Beatrice",
+      "pickState": "NE",
+      "pickZip": null,
+      "dropCommonName": "",
+      "dropAddress1": "2526 Court St",
+      "dropAddress2": "",
+      "dropCity": "Beatrice",
+      "dropState": "NE",
+      "dropZip": null,
+      "providerId": 5,
+      "providerName": "Yellow Cab of Beatrice, Inc",
+      "providerPhone": "4028061870",
+      "groupId": 70926,
+      "providerTripId": "Q00BQ8UK20C",
+      "mfTripId": 364834,
+      "reservationId": 52246
+    }
+  ],
+  "details": [
+    {
+      "appointmentDate": "2020-03-17T00:00:00Z",
+      "appointmentTime": null,
+      "requestedPickTime": "2020-03-17T23:00:00Z",
+      "isWillCall": 1,
+      "tripStatus": "VALID",
+      "pickCommonName": "",
+      "pickAddress1": "2526 Court St",
+      "pickAddress2": "",
+      "pickCity": "Beatrice",
+      "pickState": "NE",
+      "pickZip": null,
+      "dropCommonName": "",
+      "dropAddress1": "622 Bell St",
+      "dropAddress2": "",
+      "dropCity": "Beatrice",
+      "dropState": "NE",
+      "dropZip": null,
+      "providerId": 5,
+      "providerName": "Yellow Cab of Beatrice, Inc",
+      "providerPhone": "4028061870",
+      "groupId": 70921,
+      "providerTripId": "Q00BQ8UK60B",
+      "mfTripId": 364720,
+      "tripReason": "Dialysis",
+      "mode": "Cab",
+      "tripMiles": 9.96,
+      "medicalFacilityName": "DaVita Dialysis"
+    },
+    {
+      "appointmentDate": "2020-03-17T00:00:00Z",
+      "appointmentTime": "2020-03-17T14:00:00Z",
+      "requestedPickTime": null,
+      "isWillCall": 0,
+      "tripStatus": "CANCEL",
+      "pickCommonName": "",
+      "pickAddress1": "622 Bell St",
+      "pickAddress2": "",
+      "pickCity": "Beatrice",
+      "pickState": "NE",
+      "pickZip": null,
+      "dropCommonName": "",
+      "dropAddress1": "2526 Court St",
+      "dropAddress2": "",
+      "dropCity": "Beatrice",
+      "dropState": "NE",
+      "dropZip": null,
+      "providerId": 5,
+      "providerName": "Yellow Cab of Beatrice, Inc",
+      "providerPhone": "4028061870",
+      "groupId": 70921,
+      "providerTripId": "Q00BQ8UK60A",
+      "mfTripId": 364719,
+      "tripReason": "Return Ride",
+      "mode": "Cab",
+      "tripMiles": 9.96,
+      "medicalFacilityName": ""
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "webapps": [
+    {
+      "webApplicationDesc": "Unified Reservation Management",
+      "webApplicationIcon": "smp.svg",
+      "webApplicationId": 1,
+      "webApplicationName": "URM",
+      "webApplication": "URM",
+      "webApplicationBackground": ""
+    },
+    {
+      "webApplicationDesc": "Provider Experience",
+      "webApplicationIcon": "provider.svg",
+      "webApplicationId": 2,
+      "webApplicationName": "PE",
+      "webApplication": "PE",
+      "webApplicationBackground": ""
+    }
+  ],
+  "personSummary": {
+    "personInfo": {
+      "dateOfBirth": "01/01/2000",
+      "firstName": "Glenn",
+      "gender": "male",
+      "lastName": "Nevils",
+      "personID": 2,
+      "middleInitial": "R",
+      "age": 42,
+      "primaryLanguage": "English"
+    },
+    "personAddresses": {
+      "homeAddress": {
+        "address1": "1234 W. 51st st.",
+        "address2": "#503",
+        "city": "Kansas City",
+        "state": "KS",
+        "zip": 66223
+      },
+      "mailingAddress": {
+        "address1": "1234 W. 51st st.",
+        "address2": "#503",
+        "city": "Kansas City",
+        "state": "KS",
+        "zip": 66223
+      }
+    },
+    "personContact": {
+      "homePhone": "9131234521",
+      "workPhone": "9134234212",
+      "homeEmailAddress": "fakeEmail@address.com",
+      "workEmailAddress": "newEmail@address.com"
+    }
+  },
+  "healthCoverageDetails": {
+    "benefitGroup": "OX45690-09",
+    "healthPlanId": "Y20665987378",
+    "medicalId": "1233-GB-987",
+    "effectiveDate": "01/31/2020",
+    "status": "Active",
+    "name": "Edward L Severson III",
+    "address": "10551 Barkley Street Overland Park, KS 66212",
+    "phone": "(913) 321-234",
+    "dateOfBirth": "04/13/1975",
+    "gender": "Male"
+  },
+  "tripReasons": [
+    {
+      "description": "needs help",
+      "tripPurposeId": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="22" failures="0" time="44.762">
+  <testsuite name="src\redux\reducers\MemberReducer.test.ts" errors="0" failures="0" skipped="0" timestamp="2020-01-27T21:06:07" time="17.955" tests="3">
+    <testcase classname="MemberReducer › searchMembers-sets loading to true when passed SEARCH_MEMBERS_BEGIN" name="MemberReducer › searchMembers-sets loading to true when passed SEARCH_MEMBERS_BEGIN" time="0.006">
+    </testcase>
+    <testcase classname="MemberReducer › searchMembers-sets members when passed SEARCH_MEMBERS_SUCCESS" name="MemberReducer › searchMembers-sets members when passed SEARCH_MEMBERS_SUCCESS" time="0.026">
+    </testcase>
+    <testcase classname="MemberReducer › getMember-loads member when passed LOAD_MEMBER_SUCCESS" name="MemberReducer › getMember-loads member when passed LOAD_MEMBER_SUCCESS" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\redux\reducers\UserReducer.test.tsx" errors="0" failures="0" skipped="0" timestamp="2020-01-27T21:06:07" time="17.879" tests="2">
+    <testcase classname="UserReducer -sets loading to true when passed LOAD_USER_PROFILE_BEGIN" name="UserReducer -sets loading to true when passed LOAD_USER_PROFILE_BEGIN" time="0.013">
+    </testcase>
+    <testcase classname="UserReducer -loads profile when passed LOAD_USER_PROFILE_SUCCESS" name="UserReducer -loads profile when passed LOAD_USER_PROFILE_SUCCESS" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\services\AuthService\AuthService.test.tsx" errors="0" failures="0" skipped="0" timestamp="2020-01-27T21:06:07" time="18.431" tests="3">
+    <testcase classname="AuthService › logout-clears sessionStorage and sets user to null" name="AuthService › logout-clears sessionStorage and sets user to null" time="0.016">
+    </testcase>
+    <testcase classname="AuthService › isAuthenticated-returns true when the user is signed in" name="AuthService › isAuthenticated-returns true when the user is signed in" time="0.001">
+    </testcase>
+    <testcase classname="AuthService › isAuthenticated-returns false when the user is not signed in" name="AuthService › isAuthenticated-returns false when the user is not signed in" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\containers\Global\ApplicationContainer\ApplicationContainer.test.tsx" errors="0" failures="0" skipped="0" timestamp="2020-01-27T21:06:07" time="18.554" tests="3">
+    <testcase classname="ApplicationContainer-componentDidMount: should call loadApplications if no applications" name="ApplicationContainer-componentDidMount: should call loadApplications if no applications" time="0.068">
+    </testcase>
+    <testcase classname="ApplicationContainer-componentDidMount: should not call loadApplications if applications exists" name="ApplicationContainer-componentDidMount: should not call loadApplications if applications exists" time="0.108">
+    </testcase>
+    <testcase classname="ApplicationContainer-should display links when isHeader is true" name="ApplicationContainer-should display links when isHeader is true" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\components\Global\Header\Header.test.tsx" errors="0" failures="0" skipped="0" timestamp="2020-01-27T21:06:07" time="19.465" tests="1">
+    <testcase classname="Header-displays the users name" name="Header-displays the users name" time="0.167">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\redux\reducers\AppReducer.test.tsx" errors="0" failures="0" skipped="0" timestamp="2020-01-27T21:06:25" time="1.668" tests="2">
+    <testcase classname="-should set loading to true when passed LOAD_USER_APPLICATIONS_BEGIN" name="-should set loading to true when passed LOAD_USER_APPLICATIONS_BEGIN" time="0.002">
+    </testcase>
+    <testcase classname="-should load applications when passed LOAD_USER_APPLICATIONS_SUCCESS" name="-should load applications when passed LOAD_USER_APPLICATIONS_SUCCESS" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\services\MemberService.test.ts" errors="0" failures="0" skipped="0" timestamp="2020-01-27T21:06:25" time="2.132" tests="2">
+    <testcase classname="MemberService-should return members when searchMembers is called" name="MemberService-should return members when searchMembers is called" time="0.008">
+    </testcase>
+    <testcase classname="MemberService-should return members when getMember is called" name="MemberService-should return members when getMember is called" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\redux\actions\AppActions.test.ts" errors="0" failures="0" skipped="0" timestamp="2020-01-27T21:06:25" time="1.576" tests="1">
+    <testcase classname="App Actions › Load User Applications-should create LOAD_USER_APPLICATIONS_BEGIN and LOAD_USER_APPLICATIONS_SUCCESS when loading member" name="App Actions › Load User Applications-should create LOAD_USER_APPLICATIONS_BEGIN and LOAD_USER_APPLICATIONS_SUCCESS when loading member" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\redux\actions\UserActions.test.ts" errors="0" failures="0" skipped="0" timestamp="2020-01-27T21:06:25" time="2.084" tests="2">
+    <testcase classname="User Actions › Load User Name-should create LOAD_USER_NAME_SUCCESS when loading user" name="User Actions › Load User Name-should create LOAD_USER_NAME_SUCCESS when loading user" time="0.009">
+    </testcase>
+    <testcase classname="User Actions › Load User Profile-should create LOAD_USER_PROFILE_BEGIN and LOAD_USER_PROFILE_SUCCESS when loading user profile" name="User Actions › Load User Profile-should create LOAD_USER_PROFILE_BEGIN and LOAD_USER_PROFILE_SUCCESS when loading user profile" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\redux\actions\MemberActions.test.ts" errors="0" failures="0" skipped="0" timestamp="2020-01-27T21:06:26" time="1.19" tests="1">
+    <testcase classname="Member Actions › Load Member-should create LOAD_MEMBER_BEGIN and LOAD_MEMBER_SUCCESS when loading member" name="Member Actions › Load Member-should create LOAD_MEMBER_BEGIN and LOAD_MEMBER_SUCCESS when loading member" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\components\Global\Footer\Footer.test.tsx" errors="0" failures="0" skipped="0" timestamp="2020-01-27T21:06:07" time="24.008" tests="1">
+    <testcase classname="Footer-renders the current year" name="Footer-renders the current year" time="0.082">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\App.test.tsx" errors="0" failures="0" skipped="0" timestamp="2020-01-27T21:06:07" time="25.517" tests="1">
+    <testcase classname="-renders without crashing" name="-renders without crashing" time="0.049">
+    </testcase>
+  </testsuite>
+</testsuites>

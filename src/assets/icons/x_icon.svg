@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-483.000000, -256.000000)" fill="#101010">
+            <g id="Group" transform="translate(483.000000, 256.000000)">
+                <polygon id="Rectangle" transform="translate(12.500000, 12.500000) rotate(-45.000000) translate(-12.500000, -12.500000) " points="11.7919087 -4.16203862 13.4259655 -4.17271873 13.2080913 29.1620386 11.5740345 29.1727187"></polygon>
+                <polygon id="Rectangle" transform="translate(12.500000, 12.500000) scale(-1, 1) rotate(-45.000000) translate(-12.500000, -12.500000) " points="11.7919087 -4.16203862 13.4259655 -4.17271873 13.2080913 29.1620386 11.5740345 29.1727187"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

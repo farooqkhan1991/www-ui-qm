@@ -1,0 +1,24 @@
+.app {
+  min-height: calc(100vh - 0px) !important;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 140px;
+  background: white !important;
+}
+
+.loading {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  .imageWrapper {
+    text-align: center;
+
+    img {
+      max-height: 105px;
+    }
+  }
+}

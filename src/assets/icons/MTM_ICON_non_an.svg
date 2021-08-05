@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="634px" height="654px" viewBox="0 0 634 654" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>MTM_ICON</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MTM_ICON">
+            <g>
+                <g id="TriangleGroup1" transform="translate(265.000000, 0.000000)">
+                    <polygon id="Triangle" fill="#BCCF3C" points="246 213 369 427 123 427"></polygon>
+                    <polygon id="Triangle" fill="#C6D659" transform="translate(123.000000, 320.000000) scale(1, -1) translate(-123.000000, -320.000000) " points="123 213 246 427 0 427"></polygon>
+                    <polygon id="Triangle" fill="#F2822D" points="123 0 246 214 0 214"></polygon>
+                    <polygon id="Triangle" fill="#F7B27D" transform="translate(246.000000, 107.000000) scale(1, -1) translate(-246.000000, -107.000000) " points="246 0 369 214 123 214"></polygon>
+                </g>
+                <g id="TriangleGroup2" transform="translate(184.500000, 440.500000) scale(-1, 1) translate(-184.500000, -440.500000) translate(0.000000, 227.000000)">
+                    <polygon id="Triangle" fill="#6865A5" points="246 213 369 427 123 427"></polygon>
+                    <polygon id="Triangle" fill="#423F8F" transform="translate(123.000000, 320.000000) scale(1, -1) translate(-123.000000, -320.000000) " points="123 213 246 427 0 427"></polygon>
+                    <polygon id="Triangle" fill="#BA82BD" points="123 0 246 214 0 214"></polygon>
+                    <polygon id="Triangle" fill="#8F3694" transform="translate(246.000000, 107.000000) scale(1, -1) translate(-246.000000, -107.000000) " points="246 0 369 214 123 214"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
